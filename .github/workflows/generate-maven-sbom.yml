@@ -52,3 +52,4 @@ jobs:
           sbom-file: packaging/org.eclipse.sirius.update/target/bom.json
           product-name: "Sirius Desktop"
           product-version: ${{ steps.version.outputs.PROJECT_VERSION }}
+          staging: true
